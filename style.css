@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -8,25 +8,44 @@ body{
 }
 header{
     background: linear-gradient(#e6b4fc,#9474a3);
-    padding: 15px 0px 5px;
+    padding: 25px 0px 5px;
+    text-align: center;
+}
+header > p{
     text-align: center;
 }
 h1{
     font-size: 26px;
+    padding-bottom: 10px;
 }
 h2{
     text-align: left;
+    font-family: 'Orbitron', sans-serif;
     font-size: 20px;
     padding: 15px;
     padding-bottom: 10px
 }
 h3{
     text-align: left;
+    font-family: 'Orbitron', sans-serif;
     font-size: 18px;
     padding: 5px 8px;
     margin: 15px; 
     background:linear-gradient(to right, #db88ff, #f5dcff2f) ;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.171);
 }
+h4{
+    text-align: left;
+    background-color: #7802afc4;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 0px 4px rgba(0, 0, 0, 0.274);
+}
+p{
+    text-align:left ;
+    padding: 15px;
+}
+
 nav{
     margin-top: 10px;
     text-align: left;
@@ -48,8 +67,62 @@ main{
     padding: 15px;
     background-color:white;
     text-align: center;
-} main > img{
-    width: 300px;
-    
-    
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.219);
+} 
+.imgg {
+      width: 80%;
+      padding: 15px 0px;
 }
+.video{
+    background-color: #673C79;
+    width: 100%;
+    height: 380px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.438);
+
+}
+  
+ #box{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding: 10px 20px;
+    background-color:#673C79;
+    text-align: center; 
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.493);
+ }
+ section{
+        margin-left: 8%;
+        margin-right: 8%;
+        padding: 15px;
+        background-color:white;
+        text-align: center;
+        position: relative;
+        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.308);
+ }
+ #container{
+     background-color: #640a8d21;
+     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.247);
+ }
+ #coluna1{
+    position:absolute;
+    display:block;
+    text-align: left ;
+    margin-left: 4%;
+ }
+ #coluna2{
+     margin-left: 40%;
+    display: inline-block;
+    text-align: justify;
+ }
+ footer{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding:px;
+    background-color:#4a0169;
+    color: white;
+    text-align: center;
+    font-style: italic;
+ }
+  
+    
+    
+
